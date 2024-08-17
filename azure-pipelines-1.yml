@@ -13,7 +13,7 @@ steps:
 - task: AzureCLI@2
   displayName: Docker Build & Push
   inputs:
-    azureSubscription: 'Microsoft-Azure-NonProd'
+    azureSubscription: 'Azure subscription 1'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
